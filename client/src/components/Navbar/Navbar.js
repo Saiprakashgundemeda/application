@@ -21,9 +21,9 @@ const Navbar = () => {
             Profile
           </li>
         </Link>
-        <Link to="/logout" >
+        <Link to="/signupform" >
           <li className="text-white">
-            Logout
+            SignUp
           </li>
         </Link>
         

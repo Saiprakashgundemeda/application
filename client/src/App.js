@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
 import Profile from './components/Profile/profile'
 import Login from './components/Login/login'
+import SignupForm from './components/SignupForm/signupform'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
       <Routes>
         <Route path="/" exact element={<Home/>}/>
         <Route path="/profile" exact element={<Profile/>}/>
-        <Route path="/logout" exact element={<Login/>}/>
+        <Route path="/login" exact element={<Login />} />
+        <Route path="/signupform" exact element={<SignupForm />} />
       </Routes>
     </BrowserRouter>
   )
